@@ -6,7 +6,6 @@
 
 html {
   scroll-behavior: smooth;
-  overflow: hidden;
   animation: fade-in-animation ease 1s;
 }
 
