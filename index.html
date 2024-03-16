@@ -15,33 +15,39 @@
     />
   </head>
   <body>
+    <!-- Navigation bar -->
     <nav>
-      <ul class="nav-menu">
+      <ul>
         <li><a href="#home">Welcome</a></li>
-        <li><a href="#about-me">About me</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#academics">Academics</a></li>
-        <li><a href="#contact">Contacts</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certification">Certification</a></li>
+        <li><a href="#contacts">Contacts</a></li>
       </ul>
     </nav>
+
+    <!-- Main Content -->
     <div class="content">
       <section id="home">
-        <div class="presentation">
-          <img
-            class="picture"
-            src="images/profile_image-1.png"
-            alt="profile-image"
-          />
-          <div class="greeting">
-            <h1>Nanon Singhasurasak</h1>
-            <h2 class="name">ณนนท์ สิงหสุรศักดิ์</h2>
-          </div>
+        <img
+          class="picture"
+          src="images/profile_image-1.png"
+          alt="profile-image"
+        />
+        <div class="greeting">
+          <h1>Nanon Singhasurasak</h1>
+          <h2 class="name">ณนนท์ สิงหสุรศักดิ์</h2>
+          <br />
+          <h3 class="student-id">Student ID: 64010206</h3>
         </div>
       </section>
-      <section id="about-me">
-        <h3>About me</h3>
+
+      <!-- About -->
+
+      <section id="about">
+        <h3>About</h3>
         <p>
           I'm currently studying my bachelor's degree in Telecommunications
           Engineering at King's Mongkut Institute of Technology Ladkrabang. I'm
@@ -51,37 +57,71 @@
           of telecommunications even better ways for people to stay connected.
         </p>
       </section>
-      <section id="experience">
-        <h3>Experience</h3>
-        <div class="card exp">
-          <img
-            src="images/cans-communication.jpg"
-            alt="cans-communication"
-            class="exp-icon"
-          />
-          <div class="info">
-            <h5>CANS Communication</h5>
-            <h6>VOIP Developer | May 2024 - June 2024</h6>
-            <p>
-              During my internship at Cans Communication, a telecommunications
-              and networking company, I had the opportunity to work as a VOIP
-              Developer. In this role, I was responsible for developing and
-              maintaining the company's VOIP software.<br />
-              I would highly recommend an internship at Cans Communication to
-              anyone who is interested in a career in telecommunications or
-              networking. The internship program is a great way to gain hands-on
-              experience in the industry and learn from experienced
-              professionals.
-            </p>
-          </div>
+
+      <!-- Education -->
+
+      <section id="education">
+        <h3>Education</h3>
+        <div class="card">
+          <p>August 2021 - Present</p>
+          <img src="images/kmitl-logo.png" alt="KMITL Logo" class="wide" />
+          <h5>King's Mongkut Institute of Technology Ladkrabang</h5>
+          <p>Bachelor's degree in Telecommunications Engineering</p>
+        </div>
+        <div class="card">
+          <p>May 2015 - March 2021</p>
+          <img src="images/utw-logo.png" alt="UTW Logo" class="wide" />
+          <h5>Uthaiwitthayakhom School</h5>
+          <p>GPAX 3.80</p>
+        </div>
+        <div class="card">
+          <p>June 2010 - March 2015</p>
+          <img src="images/abmutt-logo.jpg" alt="ABMUTT Logo" class="wide" />
+          <h5>Anubanmueang Uthai Thani</h5>
+          <p>Kindergarten - Grade 6</p>
         </div>
       </section>
+
+      <!-- Skills -->
+
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="skills-list">
+          <h4>Language</h4>
+          <ul>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>PHP</li>
+            <li>JavaScript</li>
+          </ul>
+          <h4>Frameworks</h4>
+          <ul>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>Bootstrap.css</li>
+            <li>Tailwind.css</li>
+          </ul>
+          <h4>Tools</h4>
+          <ul>
+            <li>Git</li>
+            <li>Github</li>
+            <li>Figma</li>
+            <li>Docker</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects -->
+
       <section id="projects">
         <h3>Projects</h3>
+
+        <!-- Network Port Scanner -->
         <a
+          rel="noopener"
           href="https://github.com/64010363/GUINetworkScanner"
           target="_blank"
-          rel="noopener"
         >
           <div class="card">
             <h5>GUI Network Scanner Tool with Rust</h5>
@@ -94,6 +134,8 @@
             </p>
           </div>
         </a>
+
+        <!-- Stock Line Notify -->
         <a
           rel="noopener"
           href="https://github.com/nanonymoussu/stock-line-notify"
@@ -110,6 +152,8 @@
             </p>
           </div>
         </a>
+
+        <!-- My Portfolio -->
         <a
           rel="noopener"
           href="https://github.com/nanonymoussu/my-portfolio"
@@ -129,80 +173,173 @@
           </div>
         </a>
       </section>
-      <section id="skills">
-        <h3>Skills</h3>
-        <h4>Language</h4>
-        <ul>
-          <li>Python</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-        <h4>Frameworks</h4>
-        <ul>
-          <li>React.js</li>
-          <li>Next.js</li>
-        </ul>
-        <h4>Tools</h4>
-        <ul>
-          <li>Git</li>
-          <li>Figma</li>
-        </ul>
+
+      <!-- Certification -->
+
+      <section id="certification">
+        <h3>Certification</h3>
+
+        <!-- GISTDA -->
+        <div class="card exp">
+          <img
+            src="images/gistda-logo.png"
+            alt="GISTDA Logo"
+            class="cert-icon"
+          />
+          <a
+            rel="noopener"
+            href="https://drive.google.com/file/d/1413plxCSNDr_2xU9Nyjy8tVUjTHYM0os/view?usp=drive_link"
+            class="info"
+            target="_blank"
+          >
+            <h5>GISTDA Training Center</h5>
+            <h6>Satellite Development (5th generation)</h6>
+            <p>
+              The Satellite Development Course focuses on providing knowledge of
+              satellite design and understanding of satellite components that
+              aims to develop skills in space technology, with experts from
+              satellite engineers under the THEOS-2 framework. They have worked
+              in the field of designing, developing, testing, and assembling
+              satellites.
+            </p>
+          </a>
+        </div>
+
+        <!-- Dashboard Design -->
+        <div class="card exp">
+          <img
+            src="images/skooldio-logo.png"
+            alt="Skooldio Logo"
+            class="cert-icon"
+          />
+          <a
+            rel="noopener"
+            href="https://drive.google.com/file/d/1q4P3kbIqj_yggogq98LDtK5P6TyIk8tY/view?usp=drive_link"
+            class="info"
+            target="_blank"
+          >
+            <h5>Skooldio</h5>
+            <h6>Dashboard Design Principles</h6>
+            <p>
+              Boost business success with our online course on data analysis
+              using Looker Studio by Google. Learn from Silicon Valley experts,
+              including Dr. Taa-Wiratch Jirapattanakul, co-founder of Skooldio
+              and former Facebook Data Scientist. Master data visualization and
+              its impact on modern business in just 12 intense hours!
+            </p>
+          </a>
+        </div>
+
+        <!-- Mastering Google Data -->
+        <div class="card exp">
+          <img
+            src="images/skooldio-logo.png"
+            alt="Skooldio Logo"
+            class="cert-icon"
+          />
+          <a
+            rel="noopener"
+            href="https://drive.google.com/file/d/1xyDpWDP93QlI-BPRR7Z4cLNFvvEv7kx2/view?usp=drive_link"
+            class="info"
+            target="_blank"
+          >
+            <h5>Skooldio</h5>
+            <h6>Mastering Google Data Studio</h6>
+            <p>
+              To drive an organization toward being data-driven, everyone must
+              access and use data effectively. Designing dashboards for data
+              visualization is increasingly popular. However, many organizations
+              struggle with what a good dashboard should present and how to
+              communicate effectively. Solving this can lead to better
+              decision-making based on insights and trends from data.
+            </p>
+          </a>
+        </div>
       </section>
-      <section id="academics">
-        <h3>Academics</h3>
-        <div class="card">
-          <p>August 2021 - Present</p>
-          <img src="images/kmitl-logo.png" alt="KMITL Logo" class="wide" />
-          <h5>King's Mongkut Institute of Technology Ladkrabang</h5>
-          <p>Bachelor's degree in Telecommunications Engineering</p>
-        </div>
-        <div class="card">
-          <p>May 2015 - March 2021</p>
-          <img src="images/utw-logo.png" alt="utw-logo" class="wide" />
-          <h5>Uthaiwitthayakhom School</h5>
-          <p>GPX 3.80</p>
-        </div>
-        <div class="card">
-          <p>June 2010 - March 2015</p>
-          <img src="images/abmutt-logo.jpg" alt="abmutt-logo" class="wide" />
-          <h5>Anubanmueang Uthai Thani</h5>
-          <p>Kindergarten - Grade 6</p>
-        </div>
-      </section>
-      <section id="contact">
+
+      <!-- Contacts -->
+
+      <section id="contacts">
         <h3>Contacts</h3>
         <ul>
+          <!-- Facebook -->
           <li>
+            <img
+              src="images/facebook-logo.png"
+              alt="Facebook Logo"
+              class="contacts-icon"
+            />
             <a
               href="https://facebook.com/nanon.singhasurasak"
               target="_blank"
               rel="noopener"
-              >Facebook</a
+              class="contacts-text"
+              >Facebook: Nanon Singhasurasak</a
             >
           </li>
+
+          <!-- Instagram -->
           <li>
+            <img
+              src="images/instagram-logo.png"
+              alt="Instagram Logo"
+              class="contacts-icon"
+            />
             <a
               href="https://instagram.com/nanonymoussu"
               target="_blank"
               rel="noopener"
-              >Instagram</a
+              class="contacts-text"
+              >Instagram: nanonymoussu</a
             >
           </li>
+
+          <!-- GitHub -->
           <li>
+            <img
+              src="images/github-logo.png"
+              alt="GitHub Logo"
+              class="contacts-icon"
+            />
             <a
               href="https://github.com/nanonymoussu/"
               target="_blank"
               rel="noopener"
-              >GitHub</a
+              class="contacts-text"
+              >GitHub: nanonymoussu</a
             >
           </li>
+
+          <!-- Email -->
           <li>
-            <a href="mailto:64010206@kmitl.ac.th" target="_blank">Email</a>
+            <img
+              src="images/email-logo.png"
+              alt="Email Logo"
+              class="contacts-icon"
+            />
+            <a
+              href="mailto:64010206@kmitl.ac.th"
+              target="_blank"
+              class="contacts-text"
+              >Email: 64010206@kmitl.ac.th</a
+            >
+          </li>
+
+          <!-- Telephone -->
+          <li>
+            <img
+              src="images/phone-logo.png"
+              alt="Phone Logo"
+              class="contacts-icon"
+            />
+            <a target="_blank" class="contacts-text">Tel: +6690-523-0904</a>
           </li>
         </ul>
       </section>
     </div>
-    <footer>@nanonymoussu - Nanon Singhasurasak</footer>
+
+    <!-- Footer -->
+
+    <footer>| -> Ajarn KRIT so handsome <- |</footer>
   </body>
 </html>
